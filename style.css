@@ -1,0 +1,77 @@
+ @font-face {
+  font-family: 'TacOne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Fonts/TacOne-Regular.ttf) format('truetype');
+  unicode-range:U+1EE00-1EEFF;
+}
+ @font-face{
+  font-family: 'Modak';
+  font-style: normal;
+  font-weight: 300;
+  src: url(Fonts/Modak-Regular.ttf);
+ }
+
+h1 {
+  font-family: TacOne;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    text-shadow: 2px 2px 3px #ff0000;
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: double;
+    padding: 10px;
+    border-width: 5px;
+}
+p{
+  font-family: Modak;
+  font-size: 20px;
+  font-style: oblique;
+  text-indent:5rem;
+  hyphens: manual;
+  -ms-hyphens: auto;
+  word-wrap: break-word;
+  text-align: justify;
+  word-spacing:2px;
+  border-width: 10px;
+  border-radius: 2em;
+  border-style: solid;
+  border-color: gold;
+  padding: 5px;
+  outline-style: solid;
+  outline-offset: 5px;
+  outline-color: green;
+  overflow-y: scroll;
+  resize: horizontal;
+   
+  column-count : 3;
+  column-gap : 5rem;
+  column-rule : 1px solid black;
+ }
+
+
+
+/* @font-face{
+  src: url(fonts/Modak-Regular.ttf) format('truetype');
+  font-family: 'Modak';
+  font-style: normal;
+  font-weight: 500;
+
+#paragraph{
+  font-family: '';
+      color: rgb(254, 128, 55);
+      padding: 20rem;
+    }
+} */ */
+/* p{
+  font-family: Modak;
+  font-weight: 300px;
+  font-style: italic;
+  color: rgb(255, 24, 24);
+  font-size: 100px;
+} */

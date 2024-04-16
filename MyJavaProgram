@@ -1,0 +1,4 @@
+var message ="First JavaScript Variable";
+console.log (message);
+console.log('Hello World');
+//alert ("Hello World");

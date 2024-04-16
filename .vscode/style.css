@@ -1,0 +1,26 @@
+@font-face {
+  src: url(fonts/TacOne-Regular.ttf) format('truetype');
+  font-family: 'TacOne';
+  unicode-range: U+0-10FFFF;
+}
+ h1 {
+      font-family: TacOne;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: italic;
+     
+    }
+
+@font-face{
+  src: url(fonts/Modak-Regular.ttf) format('truetype');
+  font-family: 'Modak';
+  font-style: normal;
+  font-weight: 500;
+
+}
+#paragraph{
+  font-family: Modak;
+  font-weight: 300;
+  font-style: italic;
+  color: red;
+}
